@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86e9cfd9-9589-4745-b020-2cbbd6e08df4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/535. TinyURL 的加密与解密.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/807. 保持城市天际线.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数组和字符串/无重复最长子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组和字符串/无重复最长子串.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="709. 转换成小写字母.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/709. 转换成小写字母.py">
+      <file leaf-file-name="求众数.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/其他/求众数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="338. Bit位计数.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/338. Bit位计数.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="187">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="28" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -68,6 +54,7 @@
         <option value="$PROJECT_DIR$/535. TinyURL 的加密与解密.py" />
         <option value="$PROJECT_DIR$/709. 转换成小写字母.py" />
         <option value="$PROJECT_DIR$/338. Bit位计数.py" />
+        <option value="$PROJECT_DIR$/其他/求众数.py" />
       </list>
     </option>
   </component>
@@ -80,9 +67,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="716" />
-    <option name="y" value="91" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="282" />
+    <option name="y" value="93" />
     <option name="width" value="1360" />
     <option name="height" value="918" />
   </component>
@@ -101,6 +88,11 @@
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="其他" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,8 +122,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.338. Bit位计数">
-    <configuration name="合并区间" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.求众数">
+    <configuration name="求众数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,12 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/搜索和排序" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/其他" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/搜索和排序/合并区间.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/其他/求众数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,19 +290,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.合并区间" />
       <item itemvalue="Python.无重复最长子串" />
       <item itemvalue="Python.807. 保持城市天际线" />
       <item itemvalue="Python.535. TinyURL 的加密与解密" />
       <item itemvalue="Python.338. Bit位计数" />
+      <item itemvalue="Python.求众数" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.求众数" />
         <item itemvalue="Python.338. Bit位计数" />
         <item itemvalue="Python.535. TinyURL 的加密与解密" />
         <item itemvalue="Python.807. 保持城市天际线" />
         <item itemvalue="Python.无重复最长子串" />
-        <item itemvalue="Python.合并区间" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +320,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="573" y="73" width="1088" height="734" extended-state="0" />
+    <frame x="226" y="75" width="1088" height="734" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25475284" />
@@ -445,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.两数之和.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/搜索和排序/前K个高频元素.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -509,10 +493,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/709. 转换成小写字母.py">
+    <entry file="file://$PROJECT_DIR$/1.两数之和.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="325">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -520,6 +504,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/709. 转换成小写字母.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他/求众数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="28" selection-end-column="69" />
         </state>
       </provider>
     </entry>
