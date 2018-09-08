@@ -18,6 +18,26 @@
 """
 
 
+# class Solution:
+#     def increasingTriplet(self, nums):
+#         """
+#         :type nums: List[int]
+#         :rtype: bool
+#         """
+#         if len(nums) < 3:
+#             return False
+#
+#         n1, n2 = float("inf"), float("inf")
+#
+#         for i in nums:
+#             if i < n1:
+#                 n1 = i
+#             elif n1 < i < n2:
+#                 n2 = i
+#             elif i > n2:
+#                 return True
+#         return False
+
 class Solution:
     def increasingTriplet(self, nums):
         """
@@ -27,14 +47,14 @@ class Solution:
         if len(nums) < 3:
             return False
 
-        n1, n2 = float("inf"), float("inf")
+        start, mid = float("inf"), float("inf")
 
         for i in nums:
-            if i < n1:
-                n1 = i
-            elif n1 < i < n2:
-                n2 = i
-            elif i > n2:
+            if i < start:
+                start = i
+            elif start < i < mid:
+                mid = i
+            elif i > mid:
                 return True
         return False
 

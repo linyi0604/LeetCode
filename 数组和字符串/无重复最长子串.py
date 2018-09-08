@@ -10,33 +10,33 @@
 给定 "pwwkew" ，最长子串是 "wke" ，长度是3。请注意答案必须是一个子串，"pwke" 是 子序列  而不是子串。
 """
 
+
 class Solution:
     def lengthOfLongestSubstring(self, s):
         """
         :type s: str
         :rtype: int
         """
-        if len(s) == 0:
-            return 0
-        res = 1
+        l = 0
         start = 0
-        end = start
-        while start < len(s)-1 and end < len(s)-1:
-            # print(start, end)
-            # input()
-            next = end + 1
-            if s[next] not in s[start:end+1]:
-                end += 1
-                if res <= end - start + 1:
-                    res = end - start + 1
+        dic = {}
+        for i in range(len(s)):
+            cur = s[i]
+            if cur not in dic.keys():
+                dic[cur] = i
             else:
-                start += 1
-                end = start
-        return res
+                if dic[cur] + 1 > start:
+                    start = dic[cur] + 1
+                dic[cur] = i
+            if i - start + 1 > l:
+                l = i - start + 1
+
+        return l
 
 
 if __name__ == '__main__':
     s = Solution()
     # print(s.lengthOfLongestSubstring("abcabcbb"))
-    # print(s.lengthOfLongestSubstring("pwwkew"))
-    print(s.lengthOfLongestSubstring("bbbbb"))
+    # print(s.lengthOfLongestSubstring("abba"))
+    print(s.lengthOfLongestSubstring("aabaab!bb"))
+    # print(s.lengthOfLongestSubstring("bbbbb"))
